@@ -1,0 +1,2 @@
+git remote add origin https://github.com/abosmond/CodeIgniter-Bootstrap.git
+git push -u origin master
