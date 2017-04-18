@@ -2,11 +2,13 @@
 
 class Login extends CI_Controller {
 
-	public function index()	{
+    var $data;
+
+    public function index()	{
         $this->load->library('form_validation');
 
-		if ($this->ion_auth->logged_in()) {
-            redirect('Login/home', 'refresh');
+        if ($this->ion_auth->logged_in()) {
+            redirect('Home', 'refresh');
         }
 
         $this->form_validation->set_rules('username', 'Username', 'trim|required');
@@ -24,15 +26,11 @@ class Login extends CI_Controller {
                 redirect('Login', 'refresh');
             }
         }
-	}
+    }
 
     public function logout() {
         if ($this->ion_auth->logout()) {
             redirect('Login');
         }
-    }
-
-    public function home() {
-        echo 'sukses';
     }
 }

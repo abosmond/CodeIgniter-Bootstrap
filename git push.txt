@@ -1,2 +1,22 @@
 git remote add origin https://github.com/abosmond/CodeIgniter-Bootstrap.git
 git push -u origin master
+
+C:\wamp64\www\CodeIgniter-Bootstrap>git remote add origin https://github.com/abo
+smond/CodeIgniter-Bootstrap.git
+fatal: remote origin already exists.
+
+C:\wamp64\www\CodeIgniter-Bootstrap>git push -u origin master
+fatal: unable to access 'https://github.com/abosmond/CodeIgniter-Bootstrap.git/'
+: Recv failure: Connection was reset
+
+C:\wamp64\www\CodeIgniter-Bootstrap>git config --global --unset-all http.proxy
+
+C:\wamp64\www\CodeIgniter-Bootstrap>git config --global --unset-all https.proxy
+
+C:\wamp64\www\CodeIgniter-Bootstrap>git push -u origin master
+Username for 'https://github.com': abosmond
+Password for 'https://abosmond@github.com':
+Counting objects: 1366, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (1329/1329), done.
+Writing objects:  11% (151/1366)
