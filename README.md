@@ -6,7 +6,7 @@ This is admin template ready for CodeIgniter development. The specification is :
 3. Integrated with ion_auth, http://benedmunds.com/ion_auth/
 4. AdminLTE theme, https://github.com/almasaeed2010/AdminLTE
 
-I also add one user module with CRUD capability ( add user, edit user, delete user, change password ) and login module, of course. You can use my code and edit it by yourself. 
+I also add one user module with CRUD capability ( add user, edit user, delete user, change password ) and login module, of course. You can use my code and edit it by yourself. For demo you can try it at http://codeigniter-bootstrap.abosmond.xyz/, username : administrator, password : password.
 If you have any question, just pull requests or contact me at abosmond86@gmail.com. 
 
 Happy coding,
